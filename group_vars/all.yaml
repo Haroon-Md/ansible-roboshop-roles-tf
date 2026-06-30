@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-{{ env }}.daws86s.fun
-REDIS_HOST: redis.daws86s.fun
-CATALOGUE_HOST: catalogue.daws86s.fun
-CART_HOST: cart.daws86s.fun
-USER_HOST: user.daws86s.fun
-RABBITMQ_HOST: rabbitmq.daws86s.fun
-MYSQL_HOST: mysql.daws86s.fun
-SHIPPING_HOST: shipping.daws86s.fun
-PAYMENT_HOST: payment.daws86s.fun
+MONGODB_HOST: mongodb.{{ env }}.ahay.space
+REDIS_HOST: redis-{{ env }}.ahay.space
+CATALOGUE_HOST: catalogue-{{ env }}.ahay.space
+CART_HOST: cart-{{ env }}.ahay.space
+USER_HOST: user-{{ env }}.ahay.space
+RABBITMQ_HOST: rabbitmq-{{ env }}.ahay.space
+MYSQL_HOST: mysql-{{ env }}.ahay.space
+SHIPPING_HOST: shipping-{{ env }}.ahay.space
+PAYMENT_HOST: payment-{{ env }}.ahay.space
